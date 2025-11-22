@@ -1,0 +1,24 @@
+# .streamlit/config.toml
+
+[theme]
+base = "dark"
+primaryColor = "#4F9DFF"        # Accent color for buttons, sliders, etc.
+backgroundColor = "#0E1117"     # Main app background
+secondaryBackgroundColor = "#1A1F27"  # Sidebar / container background
+textColor = "#E0E0E0"           # Light text on dark background
+font = "sans serif"             # Options: "sans serif", "serif", "monospace"
+
+[server]
+headless = true
+enableCORS = false
+enableXsrfProtection = true
+port = 8501
+
+[browser]
+gatherUsageStats = false
+serverAddress = "localhost"
+serverPort = 8501
+
+[client]
+toolbarMode = "minimal"          # "auto", "minimal", or "viewer"
+showErrorDetails = "full"        # Makes debugging easier
