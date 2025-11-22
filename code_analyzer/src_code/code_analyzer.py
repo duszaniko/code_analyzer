@@ -2,7 +2,7 @@
 # pip install --upgrade streamlit
 # pip install --upgrade pyflakes
 # pip install --upgrade asttokens
-# pip install --upgrade pyflakes
+# pip install --upgrade ollama
 
 # Install ollama from: https://ollama.com/download/windows
 # run a package: ollama run llama3 (pulls if not yet downloaded)
